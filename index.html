@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رستوران بنفش</title>
+    <link rel="stylesheet" href="./Styles/normalize.css">
+<link rel="stylesheet" href="./Styles/style.css">
+<link rel="shortcut icon" href="./Styles/images/fav.png" type="image/x-icon">
+</head>
+<body>
+    
+   <div class="popup hide-popup">
+    <div class="message-popup">
+        تخفیف ویژه رستوران <span class="purple">بنفش</span>
+        <a href="#off">برای دریافت کد تخفیف کلیک کنید</a>
+    </div>
+   </div>   
+   <!-- nav-item -->
+      <header class="header" id="header">
+        <nav class="navbar">
+            <img src="./Styles/images/Hamburger_icon.png" alt="menu" class="burger" id="burger">
+            <a href="#menu" class="nav-item hide-menu">منو</a>
+            <a href="#about-us" class="nav-item hide-menu">درباره ما</a>
+            <a href="#Comments" class="nav-item hide-menu">نظرات</a>
+            <a href="#footer" class="nav-item hide-menu">تماس با ما</a>
+        </nav>
+        <img src="./Styles/images/banafsh-logo.png" class="logo" alt="لوگو رستوران">
+        <a href="" class="button  button-yellow">رزور میز آنلاین</a>
+    </header>  
+    <main>
+    <section class="menu" id="menu"> 
+        <h1>
+            رستوران
+            <span class="purple"> بنفش</span> 
+        </h1>
+        <a href="" class="button button-purple">مشاهده منو کامل</a>
+        <div class="menu-items"><figure class="menu-item">
+<img src="./Styles/images/drink.png" class="menu-item-image" alt="نوشیدنی">
+<figcaption class="menu-item-text">
+    <h2>نوشیدنی</h2>
+    <p>ترکیبی از طعم‌های خاص و تازه؛ انتخابی عالی برای شروع یا پایان وعده‌تان.</p>
+
+</figcaption>
+        </figure>
+
+        <figure class="menu-item">
+            <img src="./Styles/images/barbecue.png" class="menu-item-image" alt="سوخاری">
+            <figcaption class="menu-item-text">
+                <h2>سوخاری</h2>
+                <p>مرغ سوخاری با طعم ترد و دلپذیر، همراه با ادویه‌های ویژه رستوران بنفش.</p>
+
+            </figcaption>
+        </figure>
+
+        <figure class="menu-item">
+            <img src="./Styles/images/pizza.png" class="menu-item-image" alt="پیتزا">
+            <figcaption class="menu-item-text">
+                <h2>پیتزا</h2>
+                <p>پیتزای داغ با پنیر کش‌دار و مواد تازه؛ مناسب برای عاشقان غذاهای ایتالیایی.</p>
+
+            </figcaption>
+        </figure>
+
+        <figure class="menu-item">
+            <img src="./Styles/images/burger.png" class="menu-item-image" alt="برگر">
+            <figcaption class="menu-item-text">
+                <h2>برگر</h2>
+                <p>برگر آبدار با گوشت تازه گریل‌شده و نان برشته؛ ترکیبی فراموش‌نشدنی.</p>
+
+            </figcaption>
+        </figure>
+    </div>
+    
+    </section> 
+     <section class="Comments" id="Comments">
+        <h2>نظرات مشتریان 
+            <span class="purple">بنفش</span>
+        </h2>
+        <div class="Comment-items" id="Comment-items">
+            
+    </div>
+    </section> 
+    <section class="about-us" id="about-us">
+        <div class="about-us-text"><h2> درباره رستوران 
+            <span class="yellow">بنفش</span>
+        </h2>
+        <p>رستوران بنفش با بیش از ۱۰ سال تجربه در زمینه تهیه غذاهای با کیفیت، تلاش می‌کند تا محیطی صمیمی، مدرن و دلنشین برای مشتریان خود فراهم کند. ما با استفاده از بهترین مواد اولیه و رعایت کامل بهداشت، غذاهایی لذیذ و سالم را برای شما آماده می‌کنیم. هدف ما رضایت کامل شماست.
+</p>
+    </div>
+        <img src="./Styles/images/banafsh.png" class="about-us-image" alt="رستوران بنفش">
+    </section> 
+
+    </main>
+    <footer class="footer" id="footer">
+<section class="Contact-us">
+    <h2>اطلاعات تماس</h2>
+    <div class="Contact-us-item"><h3 class="Contact-us-title">
+        <img src="./Styles/images/location.svg" alt="آدرس">
+        آدرس
+    </h3>
+    <address>تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک ۲۳</address>
+
+</div>
+<div class="Contact-us-item"><h3 class="Contact-us-title">
+        <img src="/Styles/images/mail.svg" alt="ایمیل">       
+        ایمیل
+    </h3>
+    <a href="mailto:Hello@gmail.com">Hello@gmail.com</a>
+</div>
+<div class="Contact-us-item"><h3 class="Contact-us-title">
+        <img src="./Styles/images/phone.svg" alt="شماره تماس">
+        شماره تماس
+    </h3>
+    <a href="tell:09309024574">09309024574</a>
+</div>
+</section>
+<form action="" class="form"><h2>رزرو میز آنلاین</h2>
+    <input type="text" name="name" placeholder="نام و نام خانوادگی" id="name" class="input">
+    <input type="tel" name="phone" id="phone" placeholder="شماره تماس" class="input">
+    <select name="" class="input" id="">
+        <option value="">تعداد نفرات</option>
+        <option value="1">یک</option>
+         <option value="2">دو</option>
+    </select>
+    <select name="" class="input" id="">
+        <option value="">ساعت</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+    </select>
+    <p id="off">کد تخفیف:k890Bcv</p>
+    <input type="submit" value="ثبت درخواست" class="form-button">
+</form>
+    </footer>
+    <a href="#header" class="load">
+        <img src="./Styles/images/arrow.svg" alt="arrow">
+    </a>
+    
+    <script src="index.js"></script>
+</body>
+</html> 
+
